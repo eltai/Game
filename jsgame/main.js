@@ -86,8 +86,8 @@ function spawnEnemies() {
             x = Math.random() < 0.5 ? 0 - radius : canvas.width + radius
             y = Math.random() * canvas.height
         } else {
-            x = Math.Random() * canvas.width
-            y = Math.Random() < 0.5 ? 0 - radius : canvas.height + radius
+            x = Math.random() * canvas.width
+            y = Math.random() < 0.5 ? 0 - radius : canvas.height + radius
         }
         
  
