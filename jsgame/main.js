@@ -100,7 +100,7 @@ function spawnEnemies() {
         enemies.push(new Enemy(x,y,radius,color,velocity))
     }, 1000)
 }
-
+//testing
 function animate() {
     requestAnimationFrame(animate)
     ctx.clearRect(0, 0, canvas.width, canvas.height )
